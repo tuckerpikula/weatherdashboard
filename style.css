@@ -4,3 +4,17 @@
   font-family: 'Roboto', sans-serif;
   font-size: xx-large;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 3%;
+  padding-left: 1%;
+  height: 1000px;
+}
+
