@@ -1,6 +1,4 @@
 let cityAPI = JSON.parse(localStorage.getItem('saveCity')) || []
-cityAPI.className = 'list-group-item'
-cityAPI.textContent = document.getElementById('search').value
 
 for (let i = 0; i < cityAPI.length; i++) {
   let cityAPI = document.createElement('li')
