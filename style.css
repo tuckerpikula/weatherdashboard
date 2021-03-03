@@ -17,7 +17,7 @@ cityList {
   height: 700px;
   background-color: lightgray;
   margin-top: 3%;
-  margin-left: 3%;
+  /* margin-left: 3%; */
 }
 
 .card {
@@ -35,4 +35,9 @@ cityList {
   height: 50px;
   width: 150px;
   border-bottom: 100px;
+}
+
+#cityList {
+  padding-right: 15%;
+  padding-top: 5%;
 }
